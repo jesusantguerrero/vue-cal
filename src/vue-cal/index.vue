@@ -1255,6 +1255,7 @@ export default {
   },
 
   mounted () {
+    console.log('vue-cal index mounted: https://github.com/chillburn/vue-cal.git#bugfix/start-week-on-sunday-incorrect-labels')
     const ud = this.utils.date
     const hasTouch = 'ontouchstart' in window
     const { resize, drag, create, delete: deletable, title } = this.editEvents
